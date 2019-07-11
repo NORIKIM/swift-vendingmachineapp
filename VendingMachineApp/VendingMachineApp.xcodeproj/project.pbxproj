@@ -14,6 +14,12 @@
 		3C891B3622D5CE5B00F38C8A /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C891B3322D5CE5A00F38C8A /* Inventory.swift */; };
 		3C891B3722D5CE5B00F38C8A /* VendingMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C891B3422D5CE5A00F38C8A /* VendingMachine.swift */; };
 		3C891B3822D5CE5B00F38C8A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C891B3522D5CE5A00F38C8A /* Error.swift */; };
+		3C891B4022D70BC700F38C8A /* 카누아이스블랜드.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C891B3A22D70BC700F38C8A /* 카누아이스블랜드.jpg */; };
+		3C891B4122D70BC700F38C8A /* 콜라.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3C891B3B22D70BC700F38C8A /* 콜라.jpeg */; };
+		3C891B4222D70BC700F38C8A /* TOP라떼.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3C891B3C22D70BC700F38C8A /* TOP라떼.jpeg */; };
+		3C891B4322D70BC700F38C8A /* 딸기우유.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C891B3D22D70BC700F38C8A /* 딸기우유.jpg */; };
+		3C891B4422D70BC700F38C8A /* 초코우유.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C891B3E22D70BC700F38C8A /* 초코우유.jpg */; };
+		3C891B4522D70BC700F38C8A /* 스프라이트.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C891B3F22D70BC700F38C8A /* 스프라이트.jpg */; };
 		3C89658A22BC8B0600D1D381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C89658922BC8B0600D1D381 /* AppDelegate.swift */; };
 		3C89658C22BC8B0600D1D381 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C89658B22BC8B0600D1D381 /* ViewController.swift */; };
 		3C89658F22BC8B0600D1D381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C89658D22BC8B0600D1D381 /* Main.storyboard */; };
@@ -29,6 +35,12 @@
 		3C891B3322D5CE5A00F38C8A /* Inventory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Inventory.swift; path = VendingMachineApp/Model/Inventory.swift; sourceTree = SOURCE_ROOT; };
 		3C891B3422D5CE5A00F38C8A /* VendingMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VendingMachine.swift; path = VendingMachineApp/Model/VendingMachine.swift; sourceTree = SOURCE_ROOT; };
 		3C891B3522D5CE5A00F38C8A /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Error.swift; path = VendingMachineApp/Model/Error.swift; sourceTree = SOURCE_ROOT; };
+		3C891B3A22D70BC700F38C8A /* 카누아이스블랜드.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "카누아이스블랜드.jpg"; sourceTree = "<group>"; };
+		3C891B3B22D70BC700F38C8A /* 콜라.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "콜라.jpeg"; sourceTree = "<group>"; };
+		3C891B3C22D70BC700F38C8A /* TOP라떼.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TOP라떼.jpeg"; sourceTree = "<group>"; };
+		3C891B3D22D70BC700F38C8A /* 딸기우유.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "딸기우유.jpg"; sourceTree = "<group>"; };
+		3C891B3E22D70BC700F38C8A /* 초코우유.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "초코우유.jpg"; sourceTree = "<group>"; };
+		3C891B3F22D70BC700F38C8A /* 스프라이트.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "스프라이트.jpg"; sourceTree = "<group>"; };
 		3C89658622BC8B0600D1D381 /* VendingMachineApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VendingMachineApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C89658922BC8B0600D1D381 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C89658B22BC8B0600D1D381 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +61,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C891B3922D7083C00F38C8A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				3C891B3D22D70BC700F38C8A /* 딸기우유.jpg */,
+				3C891B3F22D70BC700F38C8A /* 스프라이트.jpg */,
+				3C891B3E22D70BC700F38C8A /* 초코우유.jpg */,
+				3C891B3A22D70BC700F38C8A /* 카누아이스블랜드.jpg */,
+				3C891B3B22D70BC700F38C8A /* 콜라.jpeg */,
+				3C891B3C22D70BC700F38C8A /* TOP라떼.jpeg */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		3C89657D22BC8B0600D1D381 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +93,7 @@
 		3C89658822BC8B0600D1D381 /* VendingMachineApp */ = {
 			isa = PBXGroup;
 			children = (
+				3C891B3922D7083C00F38C8A /* Image */,
 				3C89659D22BCAB8B00D1D381 /* Model */,
 				3C89658922BC8B0600D1D381 /* AppDelegate.swift */,
 				3C89658B22BC8B0600D1D381 /* ViewController.swift */,
@@ -159,8 +185,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C891B4422D70BC700F38C8A /* 초코우유.jpg in Resources */,
+				3C891B4322D70BC700F38C8A /* 딸기우유.jpg in Resources */,
 				3C89659422BC8B0800D1D381 /* LaunchScreen.storyboard in Resources */,
+				3C891B4222D70BC700F38C8A /* TOP라떼.jpeg in Resources */,
 				3C89659122BC8B0800D1D381 /* Assets.xcassets in Resources */,
+				3C891B4122D70BC700F38C8A /* 콜라.jpeg in Resources */,
+				3C891B4022D70BC700F38C8A /* 카누아이스블랜드.jpg in Resources */,
+				3C891B4522D70BC700F38C8A /* 스프라이트.jpg in Resources */,
 				3C89658F22BC8B0600D1D381 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
