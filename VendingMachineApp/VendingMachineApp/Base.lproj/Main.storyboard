@@ -72,12 +72,72 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="개" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hvg-Hf-uea">
+                                <rect key="frame" x="133" y="458" width="22" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="개" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Me2-47-Lfu">
+                                <rect key="frame" x="981" y="458" width="22" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="개" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBp-Jj-wdR">
+                                <rect key="frame" x="769" y="458" width="22" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="개" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HcS-hk-XT8">
+                                <rect key="frame" x="557" y="458" width="22" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="개" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jfb-2O-g88">
+                                <rect key="frame" x="345" y="458" width="22" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="잔액 :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8lS-HO-bPd">
+                                <rect key="frame" x="297" y="634" width="78" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DLy-ma-ONC">
+                                <rect key="frame" x="845" y="631" width="107" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="+ 5,000"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehK-uc-c6A">
+                                <rect key="frame" x="705" y="632" width="102" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="+ 1,000"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Hvg-Hf-uea" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="133" id="0fA-zj-fBA"/>
+                            <constraint firstItem="Jfb-2O-g88" firstAttribute="baseline" secondItem="Hvg-Hf-uea" secondAttribute="baseline" id="6F7-LH-Tvz"/>
                             <constraint firstItem="Q1H-U2-fdS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="130" id="I36-Uu-Vrz"/>
+                            <constraint firstItem="aBp-Jj-wdR" firstAttribute="trailing" secondItem="CTF-vo-CU4" secondAttribute="trailing" id="Xex-jS-5Tf"/>
+                            <constraint firstItem="HcS-hk-XT8" firstAttribute="trailing" secondItem="sXb-yx-fIr" secondAttribute="trailing" id="Xht-Eq-mOF"/>
+                            <constraint firstItem="Me2-47-Lfu" firstAttribute="trailing" secondItem="apn-wP-6WT" secondAttribute="trailing" id="eSA-n7-PHV"/>
+                            <constraint firstItem="aBp-Jj-wdR" firstAttribute="baseline" secondItem="HcS-hk-XT8" secondAttribute="baseline" id="gqs-7X-o5X"/>
                             <constraint firstAttribute="trailing" secondItem="Q1H-U2-fdS" secondAttribute="trailing" constant="30" id="kQY-u2-L9z"/>
+                            <constraint firstItem="Jfb-2O-g88" firstAttribute="trailing" secondItem="NY1-f2-J67" secondAttribute="trailing" id="lIH-Fn-nkf"/>
+                            <constraint firstItem="HcS-hk-XT8" firstAttribute="baseline" secondItem="Jfb-2O-g88" secondAttribute="baseline" id="nil-C1-z00"/>
+                            <constraint firstItem="Hvg-Hf-uea" firstAttribute="trailing" secondItem="eoo-SE-InZ" secondAttribute="trailing" id="tFO-DI-FTS"/>
                             <constraint firstItem="Q1H-U2-fdS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="w2Y-GR-3nj"/>
+                            <constraint firstItem="Me2-47-Lfu" firstAttribute="baseline" secondItem="aBp-Jj-wdR" secondAttribute="baseline" id="wqK-je-kwF"/>
+                            <constraint firstItem="Hvg-Hf-uea" firstAttribute="top" secondItem="Q1H-U2-fdS" secondAttribute="bottom" constant="8" symbolic="YES" id="zk8-eF-2H8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
